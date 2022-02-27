@@ -33,7 +33,15 @@
 ## Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
 #### Using your knowledge of the imbalanced-learn and scikit-learn libraries, you’ll use a combinatorial approach of over- and undersampling with the SMOTEENN algorithm to determine if the results from the combinatorial approach are better at predicting credit risk than the resampling algorithms from Deliverable 1. Using the SMOTEENN algorithm, you’ll resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 
-### 1.) Continue using your credit_risk_resampling.ipynb file where you have already created your training and target variables.
-### 2.) Using the information we have provided in the starter code, resample the training data using the SMOTEENN algorithm.
-### 3.) After the data is resampled, use the LogisticRegression classifier to make predictions and evaluate the model’s performance.
-### 4.) Calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
+### 1.) Continue using your credit_risk_resampling.ipynb file. Resample the training data using the SMOTEENN algorithm.
+
+![image](https://user-images.githubusercontent.com/87340105/155903184-5275210a-81d2-400f-b340-42148a23e3e4.png)
+
+### 2.) After the data is resampled, use the LogisticRegression classifier to make predictions and evaluate the model’s performance.
+
+![image](https://user-images.githubusercontent.com/87340105/155903191-a2e7f918-951c-4656-bf7c-21ed104ab9ff.png)
+
+### 3.) Calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
+
+![image](https://user-images.githubusercontent.com/87340105/155903167-6d779b76-a7a2-41da-8243-1da417fb5138.png)
+
