@@ -45,3 +45,5 @@
 
 ![image](https://user-images.githubusercontent.com/87340105/155903167-6d779b76-a7a2-41da-8243-1da417fb5138.png)
 
+## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
+#### Using your knowledge of the imblearn.ensemble library, you’ll train and compare two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model. Using both algorithms, you’ll resample the dataset, view the count of the target classes, train the ensemble classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
