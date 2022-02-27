@@ -48,14 +48,34 @@
 ## Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 #### Using your knowledge of the imblearn.ensemble library, you’ll train and compare two different ensemble classifiers, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk and evaluate each model. Using both algorithms, you’ll resample the dataset, view the count of the target classes, train the ensemble classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 
-### 1.) Create your training and target variables by completing the following:
 ### 2.) Create the training variables by converting the string values into numerical ones using the get_dummies() method.
+
+![image](https://user-images.githubusercontent.com/87340105/155903610-91dd5f29-ba40-467f-9b6e-6a72d5607a1e.png)
+
 ### 3.) Create the target variables.
+
+![image](https://user-images.githubusercontent.com/87340105/155903618-2e705a8c-4299-41e5-a371-ab8a17560f2f.png)
+
 ### 4.) Check the balance of the target variables.
+
+![image](https://user-images.githubusercontent.com/87340105/155903648-1577060a-3dc7-4306-8ec4-c2331d060f27.png)
+
 ### 5.) Resample the training data using the BalancedRandomForestClassifier algorithm with 100 estimators.
-### 6.) Consult the following Random Forest documentation (Links to an external site.) for an example.
+
+![image](https://user-images.githubusercontent.com/87340105/155903660-1a47df98-13b5-49ed-9607-24a4405ae3b6.png)
+
 ### 7.) After the data is resampled, calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
+
+![image](https://user-images.githubusercontent.com/87340105/155903714-8c0a9cc7-675d-4f97-976f-7741b0feeab3.png)
+
 ### 8.) Print the feature importance sorted in descending order (from most to least important feature), along with the feature score.
+
+![image](https://user-images.githubusercontent.com/87340105/155903728-662fe162-6ccc-47fa-bcce-728bcc8d03d9.png)
+
 ### 9.) Resample the training data using the EasyEnsembleClassifier algorithm with 100 estimators.
-### 10.) Consult the following Easy Ensemble documentation (Links to an external site.) for an example.
+
+![image](https://user-images.githubusercontent.com/87340105/155903747-2be9f8b6-108c-48c7-a043-e234cdc4c901.png)
+
 ### 11.) After the data is resampled, calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
+
+![image](https://user-images.githubusercontent.com/87340105/155903755-537fd664-01b9-4a3c-9e85-d017acc634a2.png)
