@@ -1,4 +1,10 @@
 # Credit Risk Analysis - Module 17 Challenge
+
+### Overview
+We will be trying to solve credit card risk. Using the credit card dataset provided by LendingClub and applied machine learning skills to predict credit risk. We built and evaluated models using different techniques to train and evaluate the models with unbalanced classes.
+
+### Results
+
 ## Deliverable 1: Use Resampling Models to Predict Credit Risk
 #### Using your knowledge of the imbalanced-learn and scikit-learn libraries, you’ll evaluate three machine learning models by using resampling to determine which is better at predicting credit risk. First, you’ll use the oversampling RandomOverSampler and SMOTE algorithms, and then you’ll use the undersampling ClusterCentroids algorithm. Using these algorithms, you’ll resample the dataset, view the count of the target classes, train a logistic regression classifier, calculate the balanced accuracy score, generate a confusion matrix, and generate a classification report.
 
@@ -80,9 +86,6 @@
 
 ![image](https://user-images.githubusercontent.com/87340105/155903755-537fd664-01b9-4a3c-9e85-d017acc634a2.png)
 
-## Deliverable 4: Written Report on the Credit Risk Analysis
-### Overview
-We will be trying to solve credit card risk. Using the credit card dataset provided by LendingClub and applied machine learning skills to predict credit risk. We built and evaluated models using different techniques to train and evaluate the models with unbalanced classes.
-### Results
-After reviewing all models, the EasyEnsembleClassifier algorithm produced the highest accuracy for all risk loans.  This method would be the suggested algorithm to use.
+
 ### Summary
+After reviewing all models, the EasyEnsembleClassifier algorithm produced the highest accuracy for all risk loans.  This method would be the suggested algorithm to use.
